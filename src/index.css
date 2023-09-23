@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,600&family=Montserrat:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #30A2FF;
+    --secondary-color: #E60012;
+    letter-spacing: 1px;
+}
+
+body {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif, 'Montserrat';
+}
+
+@layer components {
+    .contain {
+        @apply w-[100%] bg-[var(--primary-color)] flex flex-col items-center justify-center
+    }
+}
+
+/* #animatedMenu {
+    height: 0px;
+    display: none;
+    transition: height 300ms;
+}
+
+.group:focus #animatedMenu {
+    height: 300px;
+    display: block;
+} */
+
