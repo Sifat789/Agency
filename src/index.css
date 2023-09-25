@@ -13,6 +13,9 @@
 :root {
     --primary-color: #30A2FF;
     --secondary-color: #E60012;
+    --biege:#DAC0A3;
+    --silver: #C5C5C5;
+    --bg:#EBE4D1;
     letter-spacing: 1px;
 }
 

@@ -6,7 +6,7 @@ import Home from './pages/Home'
 function App() {
 
   return (
-    <div className='sm:w-[98vw] w-[100vw] flex flex-col items-center justify-center'>
+    <div className='sm:w-[98vw] w-[100vw] flex flex-col items-center justify-center bg-[#EBE4D1]'>
       <Navigation />
         <Router>
           <Routes>
